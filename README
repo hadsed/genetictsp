@@ -1,1 +1,5 @@
-Blarb.
+This is my AI term project. It is a traveling salesman problem
+solved with a parallel genetic algorithm written in Java. Also
+included are data analysis scripts for demonstrating speed up.
+It's also my first real project with Java and more sophisticated
+threading models.
