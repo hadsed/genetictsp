@@ -1,5 +1,3 @@
-This is my AI term project. It is a traveling salesman problem
-solved with a parallel genetic algorithm written in Java. Also
-included are data analysis scripts for demonstrating speed up.
-It's also my first real project with Java and more sophisticated
-threading models.
+This is my AI term project. It is a traveling salesman problem solved with a parallel genetic algorithm written in Java. Included are data analysis scripts for demonstrating speed up, some sample data I collected and graphed, and the original, non-parallel version.
+
+It's also my first real project with Java and more sophisticated threading models. I'm not terribly good at OOP at this point so don't scream at me.
