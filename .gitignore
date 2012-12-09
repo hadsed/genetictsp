@@ -1,0 +1,6 @@
+*~
+*.class
+*.o
+*.so
+*.exe
+*.log
