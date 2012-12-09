@@ -61,8 +61,8 @@ for k in range(len(threads)) :
 # Fill out for population size
 for k in range(len(threads)) :
     thr = str(threads[k])
-    itr += "f3_" + thr + "(x) = a_" + thr + "*x + b_" + thr + "\na_" + thr + " = 1; b_" + thr + " = 1;\n"
-    itr += "fit f3_" + thr + "(x) 'par_" + thr + "_pop_time.dat' using 1:($2/1000)" + \
+    pop += "f3_" + thr + "(x) = a_" + thr + "*x + b_" + thr + "\na_" + thr + " = 1; b_" + thr + " = 1;\n"
+    pop += "fit f3_" + thr + "(x) 'par_" + thr + "_pop_time.dat' using 1:($2/1000)" + \
         "via a_" + thr + ",b_" + thr +"\n"
 
 pop += "plot [0:" + str(popmax) + "] " 
